@@ -257,4 +257,35 @@ console.log(students[0].name+`is goddess`);
 console.log(students[2].course + `is good`);
 
 
+// 
+
+// for loop run repeteadly rub untill the condition is true
+for(let days=1;days<=7;days++)
+{
+  console.log(`number of ${days}in one week`);
+}
+
+// loopind array breaking and continue
+const august=[1923,1934,1955,1956];
+console.log(august)
+const april=[];
+for(let i=0;i<august.length;i++){
+  april.push(august[i]);
+}
+console.log(april);
+
+// looping backwards and loops in loops
+for(let exercise=1;exercise<4;exercise++){
+  console.log('***starting exercise***');
+
+  for(rep=1;rep<5;rep++){
+    console.log(`exercise${exercise}:lifting weights`);
+  }
+
+}
+const jonas=['j','k','l']
+  
+for(let i=jonas.length-1;i>=0;i--){
+  console.log(i,jonas[i]);
+}
 
